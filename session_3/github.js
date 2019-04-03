@@ -7,8 +7,11 @@ const personOne = favoriteFoods => { // define opening and closing of the functi
   //   console.log(i);
   // }
   favoriteFoods.map(
-    food => (console.log(food)) // food represents each element in array; this food is a parameter
-  )
+    food => { // food represents each element in array; this food is a parameter
+      console.log(food);
+      return food;
+    }
+  );
 };
 
 const personTwo = favoriteMovies => {
@@ -16,8 +19,11 @@ const personTwo = favoriteMovies => {
   //   console.log(i);
   // }
   favoriteMovies.map(
-    movie => (console.log(movie)) // food represents each element in array; this food is a parameter
-  )
+    movie => {
+      console.log(movie);
+      return movie;
+    } // food represents each element in array; this food is a parameter
+  );
 };
 
 /*you can opt out of this third function if you only have two partners*/
@@ -26,8 +32,11 @@ const personThree = favoriteAnimals => {
   //   console.log(i);
   // }
   favoriteAnimals.map(
-    animal => (console.log(animal)) // food represents each element in array; this food is a parameter
-  )
+    animal => {
+      console.log(animal); // food represents each element in array; this food is a parameter
+      return animal;
+    }
+  );
 };
 
 /*
@@ -38,9 +47,9 @@ const favoriteFoods = ['pizza', 'Roots bowls', 'noodles'],
   favoriteAnimals = ['penguins', 'wolf', 'bunny'];
 
 const iceBreaker = () => {
-  personOne
-  personTwo
-  personThree
+  console.log(personOne);
+  console.log(personTwo);
+  console.log(personThree);
 };
 
 /*this calls iceBreaker, which will call all of your functions*/
