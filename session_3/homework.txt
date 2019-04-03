@@ -1,0 +1,6 @@
+This week, you will be working on creating a very basic react app that utilizes buttons to update and display state. Your task before next Wednesday is to add three more buttons to your app:
+- One that decrements your count
+- One that multiplies your count by some number
+- One that has some other functionality of your choosing (get creative!)
+
+There will be a working solution of the counter app in the repo that we built in Countdown today that you may use as a reference in case you did not get yours up and running in class.
